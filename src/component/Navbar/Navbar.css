@@ -3,19 +3,22 @@
   background-color: #005662;
   border-bottom: 5px solid #4fb3bf;
   font-family: 'Open Sans', sans-serif;
-  margin: 0;
-  padding: 0;
+  height: 50px;
   top: 0;
   position: sticky;
   position: -webkit-sticky;  /* Safari compatibility */
 }
 
-.navbar li {
+.navbar-item-list {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item-list li {
   transition: 250ms ease-in-out;
 }
 
 .navbar-item {
-  color: white;
   cursor: pointer;
   display: inline-block;
   text-align: center;

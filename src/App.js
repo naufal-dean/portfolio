@@ -10,14 +10,14 @@ import { Contact } from "./container/Contact";
 
 const App = () => {
   const homeSection = createRef();
+  const navbarSection = createRef();
   const aboutSection = createRef();
   const projectSection = createRef();
   const contactSection = createRef();
 
   const scrollToRef = ref => {
-    console.log(ref);
     scrollToComponent(ref.current, {
-      offset: 0,
+      offset: -50,
       align: "middle",
       duration: 1000,
       ease: "inOutCube"
@@ -35,6 +35,7 @@ const App = () => {
         gotoAbout={() => scrollToRef(aboutSection)}
         gotoProject={() => scrollToRef(projectSection)}
         gotoContact={() => scrollToRef(contactSection)}
+        ref={navbarSection}
       />
       <section id="about" ref={aboutSection}>
         <About />

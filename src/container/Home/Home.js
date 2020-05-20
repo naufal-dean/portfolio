@@ -1,10 +1,10 @@
-import React, { forwardRef } from "react";
+import React from "react";
 
 import "./Home.css";
 
-const Home = forwardRef((props, ref) => {
+const Home = props => {
   return (
-    <div className="home" ref={ref}>
+    <div className="home">
       <span>
         <h2>
           Hello World, I'm <span style={{ color: "#102027" }}>Dean</span>!
@@ -15,6 +15,6 @@ const Home = forwardRef((props, ref) => {
       </span>
     </div>
   );
-});
+};
 
 export default Home;

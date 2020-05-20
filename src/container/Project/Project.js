@@ -1,13 +1,13 @@
-import React, { forwardRef } from "react";
+import React from "react";
 
 import "./Project.css";
 
-const Project = forwardRef((props, ref) => {
+const Project = props => {
   return (
-    <div className="project" ref={ref}>
+    <div className="project">
       <h2>Project</h2>
     </div>
   );
-});
+};
 
 export default Project;

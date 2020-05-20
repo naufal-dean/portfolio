@@ -1,14 +1,14 @@
-import React, { forwardRef } from "react";
+import React from "react";
 
 import "./About.css";
 
-const About = forwardRef((props, ref) => {
+const About = props => {
   return (
-    <div className="about" ref={ref}>
+    <div className="about">
       <div style={{height: "50"}}></div>
       <h2>About</h2>
     </div>
   );
-});
+};
 
 export default About;
