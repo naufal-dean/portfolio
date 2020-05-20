@@ -37,7 +37,7 @@ const App = () => {
         />
       </section>
       <section id="about" ref={aboutSection}>
-        <About />
+        <About gotoContact={() => scrollToRef(contactSection)} />
       </section>
       <section id="project" ref={projectSection}>
         <Project />

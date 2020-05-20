@@ -51,9 +51,8 @@ const About = props => {
           <div className="profile-desc">
             <h2>Who am I?</h2>
             <p>
-              My name is Naufal Dean Anugrah.
-              I'm a second-year student in Informatics Engineering at Institut
-              Teknologi Bandung.
+              My name is Naufal Dean Anugrah. I'm a second-year student in
+              Informatics Engineering at Institut Teknologi Bandung.
               <br />
               <br />
               I'm participated in some clubs and organizations, such as HMIF
@@ -64,7 +63,12 @@ const About = props => {
               (Capture the Flag) competition.
               <br />
               <br />
-              Let's create something awesome!
+              <span
+                onClick={props.gotoContact}
+                style={{ color: `#00838f`, cursor: `pointer` }}
+              >
+                Let's create something awesome!
+              </span>
             </p>
           </div>
         </div>
