@@ -4,7 +4,7 @@ import "./Project.css";
 
 const Project = forwardRef((props, ref) => {
   return (
-    <div className="Project" ref={ref}>
+    <div className="project" ref={ref}>
       <h2>Project</h2>
     </div>
   );

@@ -1,0 +1,28 @@
+.navbar {
+  color: #ffffff;
+  background-color: #005662;
+  border-bottom: 5px solid #4fb3bf;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky;  /* Safari compatibility */
+}
+
+.navbar li {
+  transition: 250ms ease-in-out;
+}
+
+.navbar-item {
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 13px 16px;
+}
+
+.navbar-item.current, .navbar-item:hover {
+  color: #102027;
+}
