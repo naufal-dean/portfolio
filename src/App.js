@@ -16,7 +16,7 @@ const App = () => {
 
   const scrollToRef = ref => {
     scrollToComponent(ref.current, {
-      offset: -50,
+      offset: -25,
       align: "middle",
       duration: 1000,
       ease: "inOutCube"

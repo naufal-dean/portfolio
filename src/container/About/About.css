@@ -6,12 +6,12 @@
 
 .about-title {
   font-size: 1.5em;
-  padding-top: 75px;
+  padding-top: 50px;
 }
 
 .about-content {
   display: flex;
-  padding: 50px 30vh;
+  padding: 25px 30vh;
 }
 
 .about-content-left {

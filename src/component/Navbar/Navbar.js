@@ -10,7 +10,7 @@ const Navbar = props => {
         className="navbar-item-list"
         currentClassName="current"
         items={["home", "about", "project", "contact"]}
-        offset={-55}
+        offset={-30}
       >
         <li className="navbar-item" onClick={props.gotoHome}>HOME</li>
         <li className="navbar-item" onClick={props.gotoAbout}>ABOUT</li>

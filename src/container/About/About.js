@@ -52,7 +52,6 @@ const About = props => {
             <h2>Who am I?</h2>
             <p>
               My name is Naufal Dean Anugrah.
-              <br />
               I'm a second-year student in Informatics Engineering at Institut
               Teknologi Bandung.
               <br />
