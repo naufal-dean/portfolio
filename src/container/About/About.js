@@ -26,7 +26,7 @@ const About = props => {
     if (aboutDiv.current === null) return;
     if (aboutDiv.current.getBoundingClientRect().top <= 50) {
       setCollapsed(false);
-    } else if (window.scrollY === 0) {
+    } else if (window.scrollY <= 50) {
       setCollapsed(true);
     }
   };
