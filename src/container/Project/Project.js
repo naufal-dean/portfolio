@@ -5,7 +5,12 @@ import "./Project.css";
 const Project = props => {
   return (
     <div className="project">
-      <h2>Project</h2>
+      <div className="project-title">
+        <h2>PROJECT</h2>
+      </div>
+      <div className="project-content">
+
+      </div>
     </div>
   );
 };

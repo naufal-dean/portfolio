@@ -1,5 +1,12 @@
 .app {
+  color: #102027;
   height: 100%;
   width: 100%;
   text-align: center;
+}
+
+#navbar {
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky;  /* Safari compatibility */
 }

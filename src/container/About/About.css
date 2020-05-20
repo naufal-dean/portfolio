@@ -1,4 +1,40 @@
 .about {
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   width: 100%;
+}
+
+.about-title {
+  font-size: 1.5em;
+  padding-top: 75px;
+}
+
+.about-content {
+  display: flex;
+  padding: 50px 30vh;
+}
+
+.about-content-left {
+  flex: 50%;
+  padding-right: 5vh;
+}
+
+.profile-pic {
+  border: 7px solid #00838f;
+  border-radius: 50%;
+  height: 25vh;
+  width: 25vh;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.profile-pic img {
+  height: 100%;
+  margin-left: -35px;
+  width: auto;
+}
+
+.about-content-right {
+  flex: 50%;
+  padding: 20px 0px 30px 5vh;
 }

@@ -10,7 +10,6 @@ import { Contact } from "./container/Contact";
 
 const App = () => {
   const homeSection = createRef();
-  const navbarSection = createRef();
   const aboutSection = createRef();
   const projectSection = createRef();
   const contactSection = createRef();
@@ -29,14 +28,14 @@ const App = () => {
       <section id="home" ref={homeSection}>
         <Home gotoAbout={() => scrollToRef(aboutSection)} />
       </section>
-      <Navbar
-        id="navbar"
-        gotoHome={() => scrollToRef(homeSection)}
-        gotoAbout={() => scrollToRef(aboutSection)}
-        gotoProject={() => scrollToRef(projectSection)}
-        gotoContact={() => scrollToRef(contactSection)}
-        ref={navbarSection}
-      />
+      <section id="navbar">
+        <Navbar
+          gotoHome={() => scrollToRef(homeSection)}
+          gotoAbout={() => scrollToRef(aboutSection)}
+          gotoProject={() => scrollToRef(projectSection)}
+          gotoContact={() => scrollToRef(contactSection)}
+        />
+      </section>
       <section id="about" ref={aboutSection}>
         <About />
       </section>

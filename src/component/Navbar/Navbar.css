@@ -4,9 +4,6 @@
   border-bottom: 5px solid #4fb3bf;
   font-family: 'Open Sans', sans-serif;
   height: 50px;
-  top: 0;
-  position: sticky;
-  position: -webkit-sticky;  /* Safari compatibility */
 }
 
 .navbar-item-list {

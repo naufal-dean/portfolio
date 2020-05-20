@@ -1,17 +1,16 @@
-import React, { forwardRef } from "react";
+import React from "react";
 import Scrollspy from 'react-scrollspy'
 
 import "./Navbar.css";
 
-const Navbar = forwardRef((props, ref) => {
+const Navbar = props => {
   return (
-    <div className="navbar" ref={ref}>
+    <div className="navbar">
       <Scrollspy
-        id={props.id}
         className="navbar-item-list"
         currentClassName="current"
         items={["home", "about", "project", "contact"]}
-        offset={-50}
+        offset={-55}
       >
         <li className="navbar-item" onClick={props.gotoHome}>HOME</li>
         <li className="navbar-item" onClick={props.gotoAbout}>ABOUT</li>
@@ -20,6 +19,6 @@ const Navbar = forwardRef((props, ref) => {
       </Scrollspy>
     </div>
   );
-});
+};
 
 export default Navbar;
