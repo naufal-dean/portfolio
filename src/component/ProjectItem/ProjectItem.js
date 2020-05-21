@@ -33,6 +33,7 @@ const ProjectItem = props => {
         image={props.image}
         title={props.title}
         text={props.text}
+        github={props.github}
       />
     </>
   );

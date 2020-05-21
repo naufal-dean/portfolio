@@ -27,9 +27,14 @@ const ProjectPopup = props => {
             <p>{props.text}</p>
           </div>
           <div className="popup-action">
-            <button className="ghost-btn">
-              <i class="fab fa-github"></i>&nbsp;View Code
-            </button>
+            {props.github && (
+              <button
+                className="ghost-btn"
+                onClick={() => window.open(`${props.github}`)}
+              >
+                <i class="fab fa-github"></i>&nbsp;View Code
+              </button>
+            )}
           </div>
         </div>
       )}
