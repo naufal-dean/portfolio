@@ -22,21 +22,20 @@ const About = props => {
   const aboutDiv = createRef();
   const [isCollapsed, setCollapsed] = useState(false);
 
-  const handleScroll = () => {
-    if (aboutDiv.current === null) return;
-    if (aboutDiv.current.getBoundingClientRect().top <= 50) {
-      setCollapsed(false);
-    } else if (window.scrollY <= 50) {
-      setCollapsed(true);
-    }
-  };
-
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
+    // Scroll event handler
+    const handleScroll = () => {
+      if (aboutDiv.current === null) return;
+      if (aboutDiv.current.getBoundingClientRect().top <= 50) {
+        setCollapsed(false);
+      } else if (window.scrollY <= 50) {
+        setCollapsed(true);
+      }
     };
-  }, [handleScroll]);
+    // Scroll event listener
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
 
   return (
     <div className="about" ref={aboutDiv}>

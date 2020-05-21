@@ -9,4 +9,5 @@
   top: 0;
   position: sticky;
   position: -webkit-sticky;  /* Safari compatibility */
+  z-index: 1;
 }

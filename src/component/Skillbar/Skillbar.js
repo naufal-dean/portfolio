@@ -7,12 +7,11 @@ const Skillbar = props => {
     <div className="skillbar">
       <ul className="skillbar-item-list">
         {props.skills.map((skill, index) => (
-          <li>
+          <li key={skill.name}>
             <div
               className={`skillbar-item ${
                 props.isCollapsed ? "collapsed" : ""
               }`}
-              key={skill.name}
               style={{
                 width: `${skill.value}%`,
                 backgroundColor: `hsl(190, 90%, ${100 / (index + 2.5)}%)`

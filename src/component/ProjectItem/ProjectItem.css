@@ -1,0 +1,113 @@
+/* Project item */
+.project-item {
+  background-color: #ffffff;
+  color: #000000;
+  width: 300px;
+  height: 250px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.project-item p {
+  /* margin: 0; */
+}
+
+/* Project item img */
+.project-item-img {
+  width: 100%;
+  height: 104%;
+  transition: transform 500ms linear, opacity 500ms linear;
+  position: absolute;
+  top: 0;
+}
+
+.project-item:hover .project-item-img {
+  transform: translateY(-4%);
+  opacity: 0.1;
+}
+
+.project-item-img:after {
+  content: '';
+  background-image: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.123) 39.4%,
+      rgba(255, 255, 255, 0.182) 46.6%,
+      rgba(255, 255, 255, 0.249) 53.1%,
+      rgba(255, 255, 255, 0.32) 58.9%,
+      rgba(255, 255, 255, 0.394) 64.3%,
+      rgba(255, 255, 255, 0.468) 69.3%,
+      rgba(255, 255, 255, 0.54) 74.1%,
+      rgba(255, 255, 255, 0.607) 78.8%,
+      rgba(255, 255, 255, 0.668) 83.6%,
+      rgba(255, 255, 255, 0.721) 88.7%,
+      rgba(255, 255, 255, 0.762) 94.1%,
+      rgba(255, 255, 255, 0.79) 100%);
+  height: 104%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 500ms linear;
+  pointer-events: none;
+}
+
+.project-item-img:hover:after {
+  opacity: 1;
+}
+
+/* Project item content */
+.project-item-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 75%;
+  transition: transform 500ms ease-in-out;
+}
+
+.project-item:hover .project-item-content {
+  transform: translateY(-55%);
+}
+
+/* Project item content child */
+.project-item-title {
+  color: #102027;
+  font-weight: 700;
+  opacity: 0;
+  transition: opacity 500ms linear;
+}
+
+.project-item:hover .project-item-title {
+  opacity: 1;
+}
+
+.project-item-tools {
+  color: #005662;
+  font-weight: 400;
+  margin: 1.5rem 0rem;
+  opacity: 0;
+  transition: opacity 750ms linear;
+}
+
+.project-item:hover .project-item-tools {
+  opacity: 1;
+}
+
+.project-item-btn {
+  color: #102027;
+  background: transparent;
+  border: 2.5px solid #005662;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  transition: color 250ms linear, background 250ms linear;
+}
+
+.project-item-btn:hover {
+  color: #ffffff;
+  background: #005662;
+}
