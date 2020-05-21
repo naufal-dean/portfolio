@@ -5,6 +5,8 @@
 }
 
 .popup-img {
+  align-items: center;
+  display: flex;
   height: 65%;
   overflow: hidden;
 }
@@ -12,14 +14,15 @@
 .popup-img img {
   height: auto;
   width: 100%;
-  padding: auto;
+  vertical-align: middle;
 }
 
 .popup-title {
-  margin: 20px;
+  margin: 20px 60px;
 }
 
 .popup-text {
+  margin: 0px 60px;
 }
 
 .popup-action {

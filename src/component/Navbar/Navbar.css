@@ -11,16 +11,14 @@
   padding: 0;
 }
 
-.navbar-item-list li {
-  transition: 250ms ease-in-out;
-}
-
 .navbar-item {
   cursor: pointer;
   display: inline-block;
   text-align: center;
   text-decoration: none;
   padding: 13px 16px;
+  text-transform: uppercase;
+  transition: 250ms ease-in-out;
 }
 
 .navbar-item.current, .navbar-item:hover {

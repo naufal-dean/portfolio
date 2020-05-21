@@ -6,11 +6,11 @@ import { ProjectItem } from "../../component/ProjectItem";
 const Project = props => {
   const projects = [
     {
-      title: "Project 1",
-      text: "This is a project",
-      tools: "React.js Hehe.js",
-      image: "1.jpg",
-      github: "https://github.com/naufal-dean"
+      title: "Tokemanager Website",
+      text: "Tokemanager Website is a web to track market activity. It supports transaction, currency, and stock management system.",
+      tools: "Laravel",
+      image: "tokemanager-website.png",
+      github: "https://github.com/naufal-dean/Tokemanager-Website"
     },
     {
       title: "Project 2",
@@ -39,47 +39,6 @@ const Project = props => {
       tools: "React.js Hehe.js",
       image: "2.jpg",
       github: "https://github.com/naufal-dean"
-    },
-    {
-      title: "Project 6",
-      text: "This is a project",
-      tools: "React.js Hehe.js",
-      image: "1.jpg",
-      github: "https://github.com/naufal-dean"
-    },
-    {
-      title: "Project 7",
-      text: "This is a project",
-      tools: "React.js Hehe.js",
-      image: "1.jpg",
-      github: "https://github.com/naufal-dean"
-    },
-    {
-      title: "Project 8.js",
-      text: "This is a project",
-      tools: "React.js Hehe.js",
-      image: "2.jpg",
-      github: "https://github.com/naufal-dean"
-    },
-    {
-      title: "Project 9.js",
-      text: "This is a project",
-      tools: "React.js Hehe.js",
-      image: "3.jpg",
-      github: "https://github.com/naufal-dean"
-    },
-    {
-      title: "Project 10",
-      text: "This is a project",
-      tools: "React.js Hehe.js",
-      image: "2.jpg",
-      github: "https://github.com/naufal-dean"
-    },
-    {
-      title: "Project 11",
-      text: "This is a project",
-      tools: "React.js Hehe.js",
-      image: "1.jpg",
     }
   ];
 
