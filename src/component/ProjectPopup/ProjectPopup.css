@@ -1,0 +1,37 @@
+.project-popup {
+  color: #102027;
+  height: 100%;
+  width: 100%;
+}
+
+.popup-img {
+  height: 65%;
+  overflow: hidden;
+}
+
+.popup-img img {
+  height: auto;
+  width: 100%;
+  padding: auto;
+}
+
+.popup-title {
+  margin: 20px;
+}
+
+.popup-text {
+}
+
+.popup-action {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+}
+
+.popup-action button {
+  margin: 0px 5px;
+}

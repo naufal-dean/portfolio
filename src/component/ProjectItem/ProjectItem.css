@@ -31,18 +31,18 @@
 .project-item-img:after {
   content: '';
   background-image: linear-gradient(to bottom,
-      rgba(255, 255, 255, 0.123) 39.4%,
-      rgba(255, 255, 255, 0.182) 46.6%,
-      rgba(255, 255, 255, 0.249) 53.1%,
-      rgba(255, 255, 255, 0.32) 58.9%,
-      rgba(255, 255, 255, 0.394) 64.3%,
-      rgba(255, 255, 255, 0.468) 69.3%,
-      rgba(255, 255, 255, 0.54) 74.1%,
-      rgba(255, 255, 255, 0.607) 78.8%,
-      rgba(255, 255, 255, 0.668) 83.6%,
-      rgba(255, 255, 255, 0.721) 88.7%,
-      rgba(255, 255, 255, 0.762) 94.1%,
-      rgba(255, 255, 255, 0.79) 100%);
+      rgba(0, 0, 0, 0.123) 39.4%,
+      rgba(0, 0, 0, 0.182) 46.6%,
+      rgba(0, 0, 0, 0.249) 53.1%,
+      rgba(0, 0, 0, 0.32) 58.9%,
+      rgba(0, 0, 0, 0.394) 64.3%,
+      rgba(0, 0, 0, 0.468) 69.3%,
+      rgba(0, 0, 0, 0.54) 74.1%,
+      rgba(0, 0, 0, 0.607) 78.8%,
+      rgba(0, 0, 0, 0.668) 83.6%,
+      rgba(0, 0, 0, 0.721) 88.7%,
+      rgba(0, 0, 0, 0.762) 94.1%,
+      rgba(0, 0, 0, 0.79) 100%);
   height: 104%;
   width: 100%;
   position: absolute;
@@ -53,7 +53,8 @@
   pointer-events: none;
 }
 
-.project-item-img:hover:after {
+.project-item:hover .project-item-img:after {
+  transform: translateY(-4%);
   opacity: 1;
 }
 
@@ -92,22 +93,4 @@
 
 .project-item:hover .project-item-tools {
   opacity: 1;
-}
-
-.project-item-btn {
-  color: #102027;
-  background: transparent;
-  border: 2.5px solid #005662;
-  cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-  padding: 0.75rem 1.5rem;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  transition: color 250ms linear, background 250ms linear;
-}
-
-.project-item-btn:hover {
-  color: #ffffff;
-  background: #005662;
 }
