@@ -1,18 +1,18 @@
 import React from "react";
-import Popup from "reactjs-popup";
+import Rodal from "rodal";
 
 import "./ProjectPopup.css";
+import "rodal/lib/rodal.css";
 
 const ProjectPopup = props => {
   return (
-    <Popup
-      open={props.open}
+    <Rodal
+      visible={props.visible}
       onClose={props.onCloseHandler}
-      modal
-      closeOnDocumentClick
-      contentStyle={{ padding: `0`, height: `90vh`, width: `100vh` }}
+      animation="zoom"
+      closeMaskOnClick
+      customStyles={{ padding: `0`, height: `90vh`, width: `100vh` }}
     >
-      {close => (
         <div className="project-popup">
           <div className="popup-img">
             <img
@@ -37,8 +37,7 @@ const ProjectPopup = props => {
             )}
           </div>
         </div>
-      )}
-    </Popup>
+    </Rodal>
   );
 };
 

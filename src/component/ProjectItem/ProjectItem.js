@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import Popup from "reactjs-popup";
 
 import "./ProjectItem.css";
 import { ProjectPopup } from "../../component/ProjectPopup";
 
 const ProjectItem = props => {
-  const [openPopup, setOpenPopup] = useState(false);
+  const [visiblePopup, setVisiblePopup] = useState(false);
 
   return (
     <>
@@ -20,16 +19,14 @@ const ProjectItem = props => {
         <div className="project-item-content">
           <h3 className="project-item-title">{props.title}</h3>
           <p className="project-item-tools">{props.tools}</p>
-          <button className="ghost-btn" onClick={() => setOpenPopup(true)}>
+        <button className="ghost-btn" onClick={() => setVisiblePopup(true)}>
             Learn More
           </button>
         </div>
       </div>
       <ProjectPopup
-        open={openPopup}
-        onCloseHandler={() => setOpenPopup(false)}
-        title="ProjectTitle"
-        text="Hello world"
+        visible={visiblePopup}
+        onCloseHandler={() => setVisiblePopup(false)}
         image={props.image}
         title={props.title}
         text={props.text}
