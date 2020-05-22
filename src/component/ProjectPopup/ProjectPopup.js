@@ -27,7 +27,7 @@ const ProjectPopup = props => {
           {props.github && (
             <button
               className="ghost-btn"
-              onClick={() => window.open(`${props.github}`)}
+              onClick={() => (window.open(`${props.github}`).opener = null)}
             >
               <i className="fab fa-github"></i>&nbsp;View Code
             </button>

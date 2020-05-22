@@ -20,7 +20,11 @@ const Contact = props => {
           {contacts.map(contact => (
             <li>
               <div>
-                <a href={`${contact.link}`} target="_blank">
+                <a
+                  href={`${contact.link}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className={`fa fa-${contact.name}`}></i>
                 </a>
               </div>
