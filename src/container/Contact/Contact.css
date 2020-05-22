@@ -35,6 +35,7 @@
   width: 100px;
   height: 100px;
   line-height: 100px;
+  overflow: hidden;
   text-align: center;
   transition: 0.5s ease;
   border-radius: 5%;
@@ -47,6 +48,9 @@
 
 .contact-list li div a {
   color: #ffffff;
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 
 .contact-list li span {
