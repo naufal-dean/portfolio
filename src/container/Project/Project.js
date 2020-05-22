@@ -42,6 +42,35 @@ const Project = props => {
       thumbnail: "tokemanager-website-thumbnail.png",
       images: [{ original: "tokemanager-website.png" }],
       github: "https://github.com/naufal-dean/Tokemanager-Website"
+    },
+    {
+      title: "Portfolio",
+      text:
+        "This is my portfolio website. It contains the information about me and some project that I was involved in.",
+      tools: "React.js",
+      thumbnail: "portfolio-thumbnail.png",
+      images: [{ original: "portfolio-1.png" }, { original: "portfolio-2.png" }],
+      github: "https://github.com/naufal-dean/portfolio",
+      site: "https://naufal-dean.github.io/portfolio"
+    },
+    {
+      title: "Tokemanager Website",
+      text:
+        "Tokemanager Website is a web to track market activity. It supports transaction, currency, and stock management system.",
+      tools: "Laravel",
+      thumbnail: "tokemanager-website-thumbnail.png",
+      images: [{ original: "tokemanager-website.png" }],
+      github: "https://github.com/naufal-dean/Tokemanager-Website"
+    },
+    {
+      title: "Portfolio",
+      text:
+        "This is my portfolio website. It contains the information about me and some project that I was involved in.",
+      tools: "React.js",
+      thumbnail: "portfolio-thumbnail.png",
+      images: [{ original: "portfolio-1.png" }, { original: "portfolio-2.png" }],
+      github: "https://github.com/naufal-dean/portfolio",
+      site: "https://naufal-dean.github.io/portfolio"
     }
   ];
 
