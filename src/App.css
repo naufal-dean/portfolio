@@ -8,7 +8,7 @@
 #navbar {
   top: 0;
   position: sticky;
-  position: -webkit-sticky;  /* Safari compatibility */
+  position: -webkit-sticky;
   z-index: 1;
 }
 
@@ -51,6 +51,7 @@
   position: absolute;
   top: -25px;
   left: calc(50% - 25px);
+  -webkit-transition: 0.25s linear;
   transition: 0.25s linear;
 }
 
@@ -71,28 +72,35 @@
 
 @-webkit-keyframes float-up {
   0% {
-    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
   }
+
   50% {
-    transform: translateY(-40px);
+    -webkit-transform: translateY(-40px);
   }
+
   50.1% {
-    transform: translateY(40px);
+    -webkit-transform: translateY(40px);
   }
+
   100% {
-    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
   }
 }
+
 @keyframes float-up {
   0% {
     transform: translateY(0px);
   }
+
   50% {
     transform: translateY(-40px);
   }
+
   50.1% {
     transform: translateY(40px);
   }
+
   100% {
     transform: translateY(0px);
   }
@@ -116,6 +124,7 @@
   padding: 0.75rem 1.5rem;
   font-size: 0.75rem;
   text-transform: uppercase;
+  -webkit-transition: color 250ms linear, background 250ms linear;
   transition: color 250ms linear, background 250ms linear;
 }
 
