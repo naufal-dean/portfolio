@@ -45,6 +45,16 @@ const App = () => {
       <section id="contact" ref={contactSection}>
         <Contact />
       </section>
+      <footer id="footer">
+        <div className="back-to-home" onClick={() => scrollToRef(homeSection)}>
+          <i class="fas fa-angle-up"></i>
+        </div>
+        <div>
+          <p>
+            Naufal Dean Anugrah&nbsp;<span>&copy;2020</span>
+          </p>
+        </div>
+      </footer>
     </div>
   );
 };

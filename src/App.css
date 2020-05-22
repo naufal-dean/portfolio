@@ -12,11 +12,98 @@
   z-index: 1;
 }
 
+#footer {
+  background-color: #005662;
+  color: #ffffff;
+  height: 125px;
+  width: 100%;
+  position: relative;
+}
+
+#footer div {
+  height: 100%;
+  width: 100%;
+  line-height: 100px;
+}
+
+#footer div p {
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  text-transform: uppercase;
+}
+
+#footer div span {
+  color: #4fb3bf;
+}
+
+.back-to-home {
+  background-color: #00838f;
+  border-radius: 100%;
+  cursor: pointer;
+  font-size: 3em;
+  min-height: 50px;
+  min-width: 50px;
+  max-height: 50px;
+  max-width: 50px;
+  overflow: hidden;
+  position: absolute;
+  top: -25px;
+  left: calc(50% - 25px);
+  transition: 0.25s linear;
+}
+
+.back-to-home:hover {
+  background-color: #4fb3bf;
+}
+
+.back-to-home i {
+  display: block;
+  margin: auto;
+  height: 75%;
+  width: 75%;
+}
+
+.back-to-home:hover i {
+  animation: float-up 0.75s ease 0s 1 normal;
+}
+
+@-webkit-keyframes float-up {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  50.1% {
+    transform: translateY(40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes float-up {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  50.1% {
+    transform: translateY(40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* General style */
 .unselectable {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;  
+  user-select: none;
 }
 
 .ghost-btn {
