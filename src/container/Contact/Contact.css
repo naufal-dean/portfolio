@@ -30,7 +30,6 @@
 }
 
 .contact-list li div {
-  color: #ffffff;
   background-color: #4fb3bf;
   font-size: 3em;
   width: 100px;
@@ -44,6 +43,10 @@
 .contact-list li div:hover {
   transform: rotate(360deg);
   border-radius: 100%;
+}
+
+.contact-list li div a {
+  color: #ffffff;
 }
 
 .contact-list li span {

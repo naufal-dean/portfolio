@@ -19,8 +19,10 @@ const Contact = props => {
         <ul className="contact-list">
           {contacts.map(contact => (
             <li>
-              <div onClick={() => window.open(`${contact.link}`)}>
-                <i className={`fa fa-${contact.name}`}></i>
+              <div>
+                <a href={`${contact.link}`} target="_blank">
+                  <i className={`fa fa-${contact.name}`}></i>
+                </a>
               </div>
               <span>{contact.name}</span>
             </li>
