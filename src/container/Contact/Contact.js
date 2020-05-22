@@ -17,8 +17,8 @@ const Contact = props => {
       </div>
       <div className="contact-content">
         <ul className="contact-list">
-          {contacts.map(contact => (
-            <li>
+          {contacts.map((contact, index) => (
+            <li key={`contact-${index}`}>
               <div>
                 <a
                   href={`${contact.link}`}

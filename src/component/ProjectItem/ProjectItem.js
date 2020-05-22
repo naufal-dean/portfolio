@@ -11,7 +11,7 @@ const ProjectItem = props => {
       <div className="project-item">
         <div className="project-item-img">
           <img
-            src={require(`../../image/proj/${props.image}`)}
+            src={require(`../../image/proj/${props.thumbnail}`)}
             alt="Project"
             style={{ height: `100%`, width: `100%` }}
           />
@@ -19,7 +19,7 @@ const ProjectItem = props => {
         <div className="project-item-content">
           <h3 className="project-item-title">{props.title}</h3>
           <p className="project-item-tools">{props.tools}</p>
-        <button className="ghost-btn" onClick={() => setVisiblePopup(true)}>
+          <button className="ghost-btn" onClick={() => setVisiblePopup(true)}>
             Learn More
           </button>
         </div>
@@ -27,10 +27,11 @@ const ProjectItem = props => {
       <ProjectPopup
         visible={visiblePopup}
         onCloseHandler={() => setVisiblePopup(false)}
-        image={props.image}
+        images={props.images}
         title={props.title}
         text={props.text}
         github={props.github}
+        site={props.site}
       />
     </>
   );

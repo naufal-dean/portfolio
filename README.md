@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-This is my portfolio website. There you can seek the information about me and my project that I involved in.
+This is my portfolio website. There you can seek the information about me and my project that I was involved in.
 
 Made with :purple_heart: by me.
 

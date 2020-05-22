@@ -47,7 +47,7 @@ const App = () => {
       </section>
       <footer id="footer">
         <div className="back-to-home" onClick={() => scrollToRef(homeSection)}>
-          <i class="fas fa-angle-up"></i>
+          <i className="fas fa-angle-up"></i>
         </div>
         <div>
           <p>

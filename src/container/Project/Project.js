@@ -6,39 +6,42 @@ import { ProjectItem } from "../../component/ProjectItem";
 const Project = props => {
   const projects = [
     {
+      title: "Portfolio",
+      text:
+        "This is my portfolio website. It contains the information about me and some project that I was involved in.",
+      tools: "React.js",
+      thumbnail: "portfolio-thumbnail.png",
+      images: [{ original: "portfolio-1.png" }, { original: "portfolio-2.png" }],
+      github: "https://github.com/naufal-dean/portfolio",
+      site: "https://naufal-dean.github.io/portfolio"
+    },
+    {
       title: "Tokemanager Website",
-      text: "Tokemanager Website is a web to track market activity. It supports transaction, currency, and stock management system.",
+      text:
+        "Tokemanager Website is a web to track market activity. It supports transaction, currency, and stock management system.",
       tools: "Laravel",
-      image: "tokemanager-website.png",
+      thumbnail: "tokemanager-website-thumbnail.png",
+      images: [{ original: "tokemanager-website.png" }],
       github: "https://github.com/naufal-dean/Tokemanager-Website"
     },
     {
-      title: "Project 2",
-      text: "This is a project",
-      tools: "React.js Hehe.js",
-      image: "2.jpg",
-      github: "https://github.com/naufal-dean"
+      title: "Portfolio",
+      text:
+        "This is my portfolio website. It contains the information about me and some project that I was involved in.",
+      tools: "React.js",
+      thumbnail: "portfolio-thumbnail.png",
+      images: [{ original: "portfolio-1.png" }, { original: "portfolio-2.png" }],
+      github: "https://github.com/naufal-dean/portfolio",
+      site: "https://naufal-dean.github.io/portfolio"
     },
     {
-      title: "Project 3",
-      text: "This is a project",
-      tools: "React.js Hehe.js",
-      image: "3.jpg",
-      github: "https://github.com/naufal-dean"
-    },
-    {
-      title: "Project 4",
-      text: "This is a project",
-      tools: "React.js Hehe.js",
-      image: "3.jpg",
-      github: "https://github.com/naufal-dean"
-    },
-    {
-      title: "Project 5",
-      text: "This is a project",
-      tools: "React.js Hehe.js",
-      image: "2.jpg",
-      github: "https://github.com/naufal-dean"
+      title: "Tokemanager Website",
+      text:
+        "Tokemanager Website is a web to track market activity. It supports transaction, currency, and stock management system.",
+      tools: "Laravel",
+      thumbnail: "tokemanager-website-thumbnail.png",
+      images: [{ original: "tokemanager-website.png" }],
+      github: "https://github.com/naufal-dean/Tokemanager-Website"
     }
   ];
 
@@ -49,14 +52,16 @@ const Project = props => {
       </div>
       <div className="project-content">
         <div className="project-container">
-          {projects.map(project => (
+          {projects.map((project, index) => (
             <ProjectItem
-              key={project.title}
+              key={`project-${index}`}
               title={project.title}
               tools={project.tools}
               text={project.text}
-              image={project.image}
+              thumbnail={project.thumbnail}
+              images={project.images}
               github={project.github}
+              site={project.site}
             />
           ))}
         </div>
