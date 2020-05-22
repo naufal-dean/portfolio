@@ -10,6 +10,49 @@
 }
 
 .contact-content {
+  align-content: center;
   display: flex;
   padding: 50px 30px;
+}
+
+.contact-list {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.contact-list li {
+  display: inline-block;
+  list-style: none;
+  height: 120px;
+  width: 100px;
+  margin: 20px;
+}
+
+.contact-list li div {
+  color: #ffffff;
+  background-color: #4fb3bf;
+  font-size: 3em;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  transition: 0.5s ease;
+  border-radius: 5%;
+}
+
+.contact-list li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100%;
+}
+
+.contact-list li span {
+  color: #102027;
+  display: block;
+  font-size: 1em;
+  height: 20px;
+  width: 100px;
+  padding: 15px 0px;
+  text-transform: uppercase;
+  text-align: center;
 }
