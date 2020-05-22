@@ -11,6 +11,7 @@ const Navbar = props => {
         currentClassName="current"
         items={["home", "about", "project", "contact"]}
         offset={-30}
+        style={{ overflow: "auto", whiteSpace: "nowrap" }}
       >
         <li className="navbar-item unselectable" onClick={props.gotoHome}>
           Home
