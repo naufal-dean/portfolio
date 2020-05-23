@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0ef7a126.chunk.css",
+    "main.css": "/portfolio/static/css/main.817c075c.chunk.css",
     "main.js": "/portfolio/static/js/main.5e935757.chunk.js",
     "main.js.map": "/portfolio/static/js/main.5e935757.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b37861ed.js",
@@ -9,10 +9,10 @@
     "static/js/2.dfb37292.chunk.js": "/portfolio/static/js/2.dfb37292.chunk.js",
     "static/js/2.dfb37292.chunk.js.map": "/portfolio/static/js/2.dfb37292.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.4e2d270d96fb1de2c05df681d35a8099.js": "/portfolio/precache-manifest.4e2d270d96fb1de2c05df681d35a8099.js",
+    "precache-manifest.3043979f4d859e5d921a6f5a31e7bb82.js": "/portfolio/precache-manifest.3043979f4d859e5d921a6f5a31e7bb82.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.c10066f4.chunk.css.map": "/portfolio/static/css/2.c10066f4.chunk.css.map",
-    "static/css/main.0ef7a126.chunk.css.map": "/portfolio/static/css/main.0ef7a126.chunk.css.map",
+    "static/css/main.817c075c.chunk.css.map": "/portfolio/static/css/main.817c075c.chunk.css.map",
     "static/js/2.dfb37292.chunk.js.LICENSE.txt": "/portfolio/static/js/2.dfb37292.chunk.js.LICENSE.txt",
     "static/media/avatar-duel-1.png": "/portfolio/static/media/avatar-duel-1.9f95abf0.png",
     "static/media/avatar-duel-2.png": "/portfolio/static/media/avatar-duel-2.6bc616b2.png",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.b37861ed.js",
     "static/css/2.c10066f4.chunk.css",
     "static/js/2.dfb37292.chunk.js",
-    "static/css/main.0ef7a126.chunk.css",
+    "static/css/main.817c075c.chunk.css",
     "static/js/main.5e935757.chunk.js"
   ]
 }
