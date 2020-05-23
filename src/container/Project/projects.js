@@ -65,7 +65,7 @@ const projects = [
     tools: "Bosch emulator",
     thumbnail: "cosmOS-thumbnail.png",
     images: [{ original: "cosmOS-1.png" }, { original: "cosmOS-2.png" }],
-    github: "https://github.com/naufal-dean/portfolio"
+    github: "https://github.com/naufal-dean/cosmOS-Operating-System"
   }
 ];
 
