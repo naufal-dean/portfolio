@@ -76,6 +76,20 @@ const projects = [
     images: [{ original: "graksa-gui.png" }]
   },
   {
+    title: "Avatar: World War",
+    text:
+      "Avatar: World War is dual-player CLI based Real Time Strategy (RTS) game. Written in vanilla C with main concern in data structure and algorithm.",
+    tools: "Vanilla C",
+    thumbnail: "avatar-world-war-thumbnail.png",
+    images: [
+      { original: "avatar-world-war-1.png" },
+      { original: "avatar-world-war-2.png" },
+      { original: "avatar-world-war-3.png" },
+      { original: "avatar-world-war-4.png" }
+    ],
+    github: "https://github.com/naufal-dean/Avatar-World-War"
+  },
+  {
     title: "Garuda GUI",
     text:
       "Garuda GUI is an application to present data and send command to Unmanned Aerial Vehicle via serial communication using Xbee module and Mavlink protocol. Written in C, C++ for backed and QML for frontend using Qt framework.",
