@@ -47,6 +47,7 @@ const ProjectPopup = props => {
         <div className="popup-img">
           <ImageGallery
             items={props.images.map(loadImage)}
+            lazyLoad={true}
             renderLeftNav={renderLeftNav}
             renderRightNav={renderRightNav}
             showBullets={true}

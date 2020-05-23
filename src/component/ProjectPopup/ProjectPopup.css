@@ -108,13 +108,39 @@
 
   .popup-title {
     margin: 20px 20px;
+    padding: 0px;
   }
 
   .popup-text {
     margin: 0px 20px;
+    padding: 0px;
+  }
+
+  .popup-text p {
+    margin: 0;
   }
 
   .rodal-mask {
     height: 100%;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .popup-title {
+    margin: 5px 10px;
+    padding: 0px;
+  }
+
+  .popup-text {
+    margin: 0px 10px;
+    padding: 0px;
+  }
+
+  .popup-text p {
+    margin: 0;
+  }
+
+  .popup-action {
+    bottom: 5px;
   }
 }
