@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.af2d5a12.chunk.css",
-    "main.js": "/portfolio/static/js/main.e8414ac8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.e8414ac8.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.ac7fde6e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ac7fde6e.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b37861ed.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b37861ed.js.map",
     "static/css/2.c10066f4.chunk.css": "/portfolio/static/css/2.c10066f4.chunk.css",
     "static/js/2.924431fa.chunk.js": "/portfolio/static/js/2.924431fa.chunk.js",
     "static/js/2.924431fa.chunk.js.map": "/portfolio/static/js/2.924431fa.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.d005caa12d0d3e6bd8a9e61d50fa2ca5.js": "/portfolio/precache-manifest.d005caa12d0d3e6bd8a9e61d50fa2ca5.js",
+    "precache-manifest.a436c8af6344f471e0caebb856650737.js": "/portfolio/precache-manifest.a436c8af6344f471e0caebb856650737.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.c10066f4.chunk.css.map": "/portfolio/static/css/2.c10066f4.chunk.css.map",
     "static/css/main.af2d5a12.chunk.css.map": "/portfolio/static/css/main.af2d5a12.chunk.css.map",
@@ -22,7 +22,7 @@
     "static/media/avatar-world-war-2.png": "/portfolio/static/media/avatar-world-war-2.387555c1.png",
     "static/media/avatar-world-war-3.png": "/portfolio/static/media/avatar-world-war-3.10701746.png",
     "static/media/avatar-world-war-4.png": "/portfolio/static/media/avatar-world-war-4.b0d3ff03.png",
-    "static/media/avatar-world-war-thumbnail.png": "/portfolio/static/media/avatar-world-war-thumbnail.b634f7aa.png",
+    "static/media/avatar-world-war-thumbnail.png": "/portfolio/static/media/avatar-world-war-thumbnail.5bc05446.png",
     "static/media/calculator-thumbnail.png": "/portfolio/static/media/calculator-thumbnail.e86836ab.png",
     "static/media/calculator.png": "/portfolio/static/media/calculator.838a7acd.png",
     "static/media/cosmOS-1.png": "/portfolio/static/media/cosmOS-1.5e91e20c.png",
@@ -51,6 +51,6 @@
     "static/css/2.c10066f4.chunk.css",
     "static/js/2.924431fa.chunk.js",
     "static/css/main.af2d5a12.chunk.css",
-    "static/js/main.e8414ac8.chunk.js"
+    "static/js/main.ac7fde6e.chunk.js"
   ]
 }

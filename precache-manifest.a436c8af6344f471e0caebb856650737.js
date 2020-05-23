@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74dd8f72972f0a39c344682c14671cef",
+    "revision": "7aa449936b2de21a4b0e94d8538f4331",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.c10066f4.chunk.css"
   },
   {
-    "revision": "2b3243f9facb44d0e564",
+    "revision": "e8f5250d3a2b7e6b4757",
     "url": "/portfolio/static/css/main.af2d5a12.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.924431fa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2b3243f9facb44d0e564",
-    "url": "/portfolio/static/js/main.e8414ac8.chunk.js"
+    "revision": "e8f5250d3a2b7e6b4757",
+    "url": "/portfolio/static/js/main.ac7fde6e.chunk.js"
   },
   {
     "revision": "1e74db4740f99c68a0bf",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/avatar-world-war-4.b0d3ff03.png"
   },
   {
-    "revision": "b634f7aa34325ef0367d75f7f9d2c18e",
-    "url": "/portfolio/static/media/avatar-world-war-thumbnail.b634f7aa.png"
+    "revision": "5bc0544664c2ed36d73d6b25734526fa",
+    "url": "/portfolio/static/media/avatar-world-war-thumbnail.5bc05446.png"
   },
   {
     "revision": "e86836ab53f61502c80faaf299c11680",
