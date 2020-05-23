@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca6afb3f21c99b16368c2ff91341f2a7",
+    "revision": "74dd8f72972f0a39c344682c14671cef",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "7d0a92c13683e50e30ef",
+    "revision": "d9b728b43fafa56e1827",
     "url": "/portfolio/static/css/2.c10066f4.chunk.css"
   },
   {
-    "revision": "cff6b6a9c89553a39938",
-    "url": "/portfolio/static/css/main.4fd6b53b.chunk.css"
+    "revision": "2b3243f9facb44d0e564",
+    "url": "/portfolio/static/css/main.af2d5a12.chunk.css"
   },
   {
-    "revision": "7d0a92c13683e50e30ef",
-    "url": "/portfolio/static/js/2.581253de.chunk.js"
+    "revision": "d9b728b43fafa56e1827",
+    "url": "/portfolio/static/js/2.924431fa.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/portfolio/static/js/2.581253de.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.924431fa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cff6b6a9c89553a39938",
-    "url": "/portfolio/static/js/main.ce2a3a64.chunk.js"
+    "revision": "2b3243f9facb44d0e564",
+    "url": "/portfolio/static/js/main.e8414ac8.chunk.js"
   },
   {
     "revision": "1e74db4740f99c68a0bf",
@@ -44,6 +44,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/avatar-duel-thumbnail.52364003.png"
   },
   {
+    "revision": "d16b3c829eb703b0f6a17197459c3749",
+    "url": "/portfolio/static/media/avatar-world-war-1.d16b3c82.png"
+  },
+  {
+    "revision": "387555c16cf39f1ddb165704b91c196f",
+    "url": "/portfolio/static/media/avatar-world-war-2.387555c1.png"
+  },
+  {
+    "revision": "1070174677b5026669655776b19df8d9",
+    "url": "/portfolio/static/media/avatar-world-war-3.10701746.png"
+  },
+  {
+    "revision": "b0d3ff0350cc50e342e768bc93171bd7",
+    "url": "/portfolio/static/media/avatar-world-war-4.b0d3ff03.png"
+  },
+  {
+    "revision": "b634f7aa34325ef0367d75f7f9d2c18e",
+    "url": "/portfolio/static/media/avatar-world-war-thumbnail.b634f7aa.png"
+  },
+  {
     "revision": "e86836ab53f61502c80faaf299c11680",
     "url": "/portfolio/static/media/calculator-thumbnail.e86836ab.png"
   },
@@ -52,12 +72,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/calculator.838a7acd.png"
   },
   {
-    "revision": "b5ce110cfd9f5c031f35ecb1ba6691cd",
-    "url": "/portfolio/static/media/cosmOS-1.b5ce110c.png"
+    "revision": "5e91e20c43c1a41e4407dde91c748c40",
+    "url": "/portfolio/static/media/cosmOS-1.5e91e20c.png"
   },
   {
-    "revision": "5b046d22cd804500db9f04bc317fcada",
-    "url": "/portfolio/static/media/cosmOS-2.5b046d22.png"
+    "revision": "67a4e8b5de53f8681109dba287643ada",
+    "url": "/portfolio/static/media/cosmOS-2.67a4e8b5.png"
   },
   {
     "revision": "9b77b0664011ee5e763133898def6340",
