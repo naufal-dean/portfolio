@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6a884476.chunk.css",
-    "main.js": "/portfolio/static/js/main.5e935757.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5e935757.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.4fd6b53b.chunk.css",
+    "main.js": "/portfolio/static/js/main.ce2a3a64.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ce2a3a64.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b37861ed.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b37861ed.js.map",
     "static/css/2.c10066f4.chunk.css": "/portfolio/static/css/2.c10066f4.chunk.css",
-    "static/js/2.dfb37292.chunk.js": "/portfolio/static/js/2.dfb37292.chunk.js",
-    "static/js/2.dfb37292.chunk.js.map": "/portfolio/static/js/2.dfb37292.chunk.js.map",
+    "static/js/2.581253de.chunk.js": "/portfolio/static/js/2.581253de.chunk.js",
+    "static/js/2.581253de.chunk.js.map": "/portfolio/static/js/2.581253de.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.06bae9eb2006a6511b54c43ff101201e.js": "/portfolio/precache-manifest.06bae9eb2006a6511b54c43ff101201e.js",
+    "precache-manifest.afa0b235e8ec3b19cef50022347545d0.js": "/portfolio/precache-manifest.afa0b235e8ec3b19cef50022347545d0.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.c10066f4.chunk.css.map": "/portfolio/static/css/2.c10066f4.chunk.css.map",
-    "static/css/main.6a884476.chunk.css.map": "/portfolio/static/css/main.6a884476.chunk.css.map",
-    "static/js/2.dfb37292.chunk.js.LICENSE.txt": "/portfolio/static/js/2.dfb37292.chunk.js.LICENSE.txt",
+    "static/css/main.4fd6b53b.chunk.css.map": "/portfolio/static/css/main.4fd6b53b.chunk.css.map",
+    "static/js/2.581253de.chunk.js.LICENSE.txt": "/portfolio/static/js/2.581253de.chunk.js.LICENSE.txt",
     "static/media/avatar-duel-1.png": "/portfolio/static/media/avatar-duel-1.9f95abf0.png",
     "static/media/avatar-duel-2.png": "/portfolio/static/media/avatar-duel-2.6bc616b2.png",
     "static/media/avatar-duel-3.png": "/portfolio/static/media/avatar-duel-3.c2aac7d2.png",
@@ -27,6 +27,11 @@
     "static/media/face-recognition-2.png": "/portfolio/static/media/face-recognition-2.4e8be832.png",
     "static/media/face-recognition-3.png": "/portfolio/static/media/face-recognition-3.c6490a05.png",
     "static/media/face-recognition-thumbnail.png": "/portfolio/static/media/face-recognition-thumbnail.32ace938.png",
+    "static/media/garuda-gui-1.png": "/portfolio/static/media/garuda-gui-1.ec08c9a1.png",
+    "static/media/garuda-gui-2.png": "/portfolio/static/media/garuda-gui-2.04d5e8a3.png",
+    "static/media/garuda-gui-thumbnail.png": "/portfolio/static/media/garuda-gui-thumbnail.9ce78abb.png",
+    "static/media/graksa-gui-thumbnail.png": "/portfolio/static/media/graksa-gui-thumbnail.061961c7.png",
+    "static/media/graksa-gui.png": "/portfolio/static/media/graksa-gui.e9eb9dde.png",
     "static/media/portfolio-1.png": "/portfolio/static/media/portfolio-1.57a91aae.png",
     "static/media/portfolio-2.png": "/portfolio/static/media/portfolio-2.2cf044f9.png",
     "static/media/portfolio-3.png": "/portfolio/static/media/portfolio-3.db2d1e7d.png",
@@ -39,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.b37861ed.js",
     "static/css/2.c10066f4.chunk.css",
-    "static/js/2.dfb37292.chunk.js",
-    "static/css/main.6a884476.chunk.css",
-    "static/js/main.5e935757.chunk.js"
+    "static/js/2.581253de.chunk.js",
+    "static/css/main.4fd6b53b.chunk.css",
+    "static/js/main.ce2a3a64.chunk.js"
   ]
 }

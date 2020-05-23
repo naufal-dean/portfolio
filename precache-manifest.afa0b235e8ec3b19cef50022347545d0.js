@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8e0a3b8b3aa6df84f584b82844db5985",
+    "revision": "ca6afb3f21c99b16368c2ff91341f2a7",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "ffa20be54339eb7390d9",
+    "revision": "7d0a92c13683e50e30ef",
     "url": "/portfolio/static/css/2.c10066f4.chunk.css"
   },
   {
-    "revision": "f2d8d21a980925260bcd",
-    "url": "/portfolio/static/css/main.6a884476.chunk.css"
+    "revision": "cff6b6a9c89553a39938",
+    "url": "/portfolio/static/css/main.4fd6b53b.chunk.css"
   },
   {
-    "revision": "ffa20be54339eb7390d9",
-    "url": "/portfolio/static/js/2.dfb37292.chunk.js"
+    "revision": "7d0a92c13683e50e30ef",
+    "url": "/portfolio/static/js/2.581253de.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/portfolio/static/js/2.dfb37292.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.581253de.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f2d8d21a980925260bcd",
-    "url": "/portfolio/static/js/main.5e935757.chunk.js"
+    "revision": "cff6b6a9c89553a39938",
+    "url": "/portfolio/static/js/main.ce2a3a64.chunk.js"
   },
   {
     "revision": "1e74db4740f99c68a0bf",
@@ -78,6 +78,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "32ace9381b6290dd9476351d893ee069",
     "url": "/portfolio/static/media/face-recognition-thumbnail.32ace938.png"
+  },
+  {
+    "revision": "ec08c9a18cdcd5895ed3b22dbc557fef",
+    "url": "/portfolio/static/media/garuda-gui-1.ec08c9a1.png"
+  },
+  {
+    "revision": "04d5e8a33801d6f3a76ac92ae87c3726",
+    "url": "/portfolio/static/media/garuda-gui-2.04d5e8a3.png"
+  },
+  {
+    "revision": "9ce78abbc55d357206d6bdef80221485",
+    "url": "/portfolio/static/media/garuda-gui-thumbnail.9ce78abb.png"
+  },
+  {
+    "revision": "061961c723c12f54d664df509c584ad3",
+    "url": "/portfolio/static/media/graksa-gui-thumbnail.061961c7.png"
+  },
+  {
+    "revision": "e9eb9dde7bfbc3a9d6b14f819e28c0c9",
+    "url": "/portfolio/static/media/graksa-gui.e9eb9dde.png"
   },
   {
     "revision": "57a91aae22782a2b11c0dd76f9a86135",
