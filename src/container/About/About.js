@@ -2,7 +2,7 @@ import React, { createRef, useEffect, useState } from "react";
 
 import "./About.css";
 import { Skillbar } from "../../component/Skillbar";
-import ProfPic from "../../image/profile_picture.jpg";
+import ProfPic from "../../image/profpic/profile_picture.jpg";
 
 const About = props => {
   // Skill section logic
