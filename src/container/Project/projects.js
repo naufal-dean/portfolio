@@ -17,7 +17,7 @@ const projects = [
   {
     title: "Avatar: Duel Benders",
     text:
-      "Avatar: Duel Benders is an Yu-Gi-Oh inspired game with interesting mechanics. Features awesome graphics inside Avatar and Yu-Gi-Oh universe. The game is written in Java and built using Gradle.",
+      "Avatar: Duel Benders is an Yu-Gi-Oh inspired game with interesting mechanics. Features awesome graphics inside Avatar and Yu-Gi-Oh universe. The game is written in Java with JavaFX and using Gradle build system.",
     tools: "JavaFX",
     thumbnail: "avatar-duel-thumbnail.png",
     images: [
@@ -30,8 +30,8 @@ const projects = [
   {
     title: "Face Recognition App",
     text:
-      "Face Recognition App is a simple image matching application written in Python. It supports image feature extaction using OpenCV. The app has two available matching algorithm, euclidean distance and cosine similarity.",
-    tools: "OpenCV PyQt",
+      "Face Recognition App is an image matching application written in Python. It supports image feature extaction using OpenCV. The app has two available matching algorithm, euclidean distance and cosine similarity.",
+    tools: "OpenCV | PyQt",
     thumbnail: "face-recognition-thumbnail.png",
     images: [
       { original: "face-recognition-1.png" },
@@ -62,10 +62,26 @@ const projects = [
     title: "cosmOS",
     text:
       "cosmOS is a simple 16-bit operating system written in C. It is simulated using Bosch emulator. cosmOS features some shell command, general use library, and file system management.",
-    tools: "Bosch emulator",
+    tools: "Bosch Emulator",
     thumbnail: "cosmOS-thumbnail.png",
     images: [{ original: "cosmOS-1.png" }, { original: "cosmOS-2.png" }],
     github: "https://github.com/naufal-dean/cosmOS-Operating-System"
+  },
+  {
+    title: "Graksa GUI",
+    text:
+      "Graksa GUI is an application to present rocket payload data that sent via serial communication using Xbee module. Written in C, C++ for backed and QML for frontend using Qt framework.",
+    tools: "Qt",
+    thumbnail: "graksa-gui-thumbnail.png",
+    images: [{ original: "graksa-gui.png" }]
+  },
+  {
+    title: "Garuda GUI",
+    text:
+      "Garuda GUI is an application to present data and send command to Unmanned Aerial Vehicle via serial communication using Xbee module and Mavlink protocol. Written in C, C++ for backed and QML for frontend using Qt framework.",
+    tools: "Qt",
+    thumbnail: "garuda-gui-thumbnail.png",
+    images: [{ original: "garuda-gui-1.png" }, { original: "garuda-gui-2.png" }]
   }
 ];
 
